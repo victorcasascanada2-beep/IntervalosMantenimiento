@@ -62,7 +62,7 @@ Quiero que calcules el mantenimiento que corresponde con:
 - Marca: {marca}
 - Modelo: {modelo}
 - Horas actuales: {horas}
-
+- Investiga en google y dime la referencia de la parte a montar.
 Entregable (en ESPAÑOL) y SOLO en JSON válido (sin texto adicional), con esta estructura exacta:
 
 {{
@@ -71,7 +71,8 @@ Entregable (en ESPAÑOL) y SOLO en JSON válido (sin texto adicional), con esta 
     "modelo": "...",
     "horas": 0,
     "intervalo_mas_cercano_h": 0,
-    "razon_intervalo": "..."
+    "razon_intervalo": "...",
+    "Ref de partes": "..."
   }},
   "puntos_mantenimiento": [
     {{
